@@ -2,7 +2,7 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <div className='flex w-[100vw] h-[69vh] items-center justify-center bg-slate-200 text-black'>Body</div>
   )
 }
 
