@@ -24,7 +24,7 @@ function Component() {
         </button>
       </section>
       <section className={`absolute ${isOpen ? 'translate-x-0' : '-translate-x-[100%]'} left-0 top-[80px]
-        z-30 flex w-[300px] h-full min-h-screen overflow-y-hidden flex-col rounded-br-xl bg-slate-800  text-white brightness-125 transition-transform duration-300`}
+        z-30 flex w-[240px] h-full min-h-screen overflow-y-hidden flex-col rounded-br-xl bg-slate-800  text-white brightness-125 transition-transform duration-300`}
       >
         <Link href="/" className='hover:bg-slate-900'>
           <button type="button" className="flex w-full items-center px-6 py-3 text-xl font-medium" onClick={toggleDropdown}>
